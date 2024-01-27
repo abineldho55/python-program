@@ -1,0 +1,6 @@
+f1=open("myname.txt","x")
+f1=open("myname.txt","w")
+f1.write("This is my first python file in python.\n want to work with files")
+f1=open("myname.txt","r")
+ff=f1.readline()
+print(ff)
